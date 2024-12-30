@@ -2,21 +2,21 @@
   max-width: 80rem;
   width: 100%;
   padding: 2.5rem 2rem;
-  @media (width <= 400px) {
+  @media (width <= 25rem) {
     padding: 1.5rem;
   }
   margin-inline: auto;
   & h1 {
     max-width: 40rem;
     width: 100%;
-    @media (width <= 400px) {
+    @media (width <= 25rem) {
       font-size: 2rem;
     }
     & div {
       display: inline-block;
       overflow: hidden;
       height: 5rem;
-      @media (width<= 400px) {
+      @media (width<= 25rem) {
         height: 2.5rem;
       }
       width: min-content;
@@ -36,6 +36,40 @@
           color: var(--snitap-leaf-mid);
         }
       }
+    }
+  }
+}
+
+& .buttons {
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+  @media (width <= 25rem) {
+    display: flex;
+    flex-direction: column;
+    max-width: 17.75rem;
+    width: 100%;
+  }
+
+  & .button {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    border-radius: 5rem;
+    transition: scale 350ms;
+
+    &.buy {
+      padding: 1.5rem 3rem;
+      background-color: var(--sintap);
+    }
+    &.play span {
+      padding: 1.5rem;
+      border-radius: 50%;
+      background-color: white;
+      display: flex;
+    }
+    &:hover {
+      scale: 1.1;
     }
   }
 }
@@ -94,7 +128,7 @@
   }
 }
 
-@media (width <= 400px) {
+@media (width <= 25rem) {
   @keyframes slideup {
     0%,
     22% {
