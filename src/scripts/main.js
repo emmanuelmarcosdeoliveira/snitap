@@ -1,5 +1,9 @@
+import elipse from "../assets/icons/hero/ellipse.svg";
+import patins from "../assets/icons/hero/patins.png";
 import play from "../assets/icons/hero/play.svg";
 import shop from "../assets/icons/hero/shopping-bag.svg";
+import stars from "../assets/icons/hero/stars-1.svg";
+import stars2 from "../assets/icons/hero/stars-2.svg";
 import "../styles/index.css";
 document.querySelector("#app").innerHTML = `
   <main>
@@ -38,6 +42,15 @@ document.querySelector("#app").innerHTML = `
         VEJA EM AÇÃO
         </a>
         </div>
+      </div>
+      <div>
+      <div class="content">
+      <img src=${elipse} alt="circulo na cor azul" />
+      <img src=${patins} alt="patins"/>
+      <img src=${stars} alt="estrelas 1" />
+      <img src=${stars2} alt="estrelas 2" />
+      
+      </div>
       </div>
     </section>
    </main>
