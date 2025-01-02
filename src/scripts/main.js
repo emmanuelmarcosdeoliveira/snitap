@@ -1,3 +1,4 @@
+import facebook from "../assets/icons/facebook.svg";
 import banner from "../assets/icons/hero/banner.svg";
 import elipse from "../assets/icons/hero/ellipse.svg";
 import patins from "../assets/icons/hero/patins.png";
@@ -5,6 +6,10 @@ import play from "../assets/icons/hero/play.svg";
 import shop from "../assets/icons/hero/shopping-bag.svg";
 import stars from "../assets/icons/hero/stars-1.svg";
 import stars2 from "../assets/icons/hero/stars-2.svg";
+import instagran from "../assets/icons/instagram.svg";
+import logo from "../assets/icons/logo-sinatap.svg";
+import tiktok from "../assets/icons/tiktok.svg";
+import youtube from "../assets/icons/youtube.svg";
 import image1 from "../assets/images/image-01.png";
 import image2 from "../assets/images/image-02.png";
 import image3 from "../assets/images/image-03.png";
@@ -13,7 +18,7 @@ import person from "../assets/images/person.jpg";
 import "../styles/index.css";
 document.querySelector("#app").innerHTML = `
   <main>
-  <nav>
+  <nav class="container">
       <a href="#">
         <img  src="../logo-sintap.svg" alt="Logo Sintap Patins" />
       </a>
@@ -58,7 +63,7 @@ document.querySelector("#app").innerHTML = `
             </div>
       </div>
     </section>
-    <section class="banner">
+ <section class="banner">
   <div class="scroller bg-gradient">
   <div class="rolling">
   <img src=${banner} alt="item do banner" />
@@ -77,10 +82,15 @@ document.querySelector("#app").innerHTML = `
   <img src=${banner} alt="item do banner" />
   <img src=${banner} alt="item do banner" />
   <img src=${banner} alt="item do banner" />
-  
+  <img src=${banner} alt="item do banner" />
+  <img src=${banner} alt="item do banner" />
+  <img src=${banner} alt="item do banner" />
+  <img src=${banner} alt="item do banner" />
+  <img src=${banner} alt="item do banner" />
+  <img src=${banner} alt="item do banner" />
   </div>
-  </div>
-    </section>
+ </div>
+</section>
   <section class="gallery">
   <header>
   <span>GALERIA DE FOTOS</span>
@@ -117,5 +127,32 @@ document.querySelector("#app").innerHTML = `
   </figure>
   </div>
     </section>
+    <footer class="footer" >
+    <div class="logo">
+    <img src=${logo} alt="Logo Sintap Patins" />
+    Snitap
+    </div>
+    <nav data-footer>
+    <a href="#">Sobre</a>
+    <a href="#">Nossas Lojas</a>
+    <a href="#">Politicas de Privacidade</a> 
+    </nav>
+    <div class="social-links">
+    <a href="#" title="Youtube">
+    <img src=${youtube} alt="ícone do Yotube " />
+    </a>
+     <a href="#" title="Youtube">
+    <img src=${instagran} alt="ícone do Instagram " />
+    </a>
+     <a href="#" title="Youtube">
+    <img src=${facebook} alt="ícone do facebook " />
+    </a>
+     <a href="#" title="Youtube">
+    <img src=${tiktok} alt="ícone do tiktok " />
+    </a>
+    
+    
+    </div>
+    </footer>
    </main>
 `;

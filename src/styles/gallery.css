@@ -3,14 +3,12 @@
   max-width: 80rem;
   padding: 2.5rem 2rem;
   margin-inline: auto;
-
   header {
     text-align: center;
     span {
       font: 500 var(--text-small) / 1.5 var(--ff-base);
     }
   }
-
   & img {
     max-width: 100%;
     height: 100%;
@@ -23,7 +21,6 @@
     }
     grid-template-areas: "A B B" "C C D";
     gap: 2.5rem;
-
     & figure {
       position: relative;
       border-radius: 2.5rem;
@@ -34,13 +31,11 @@
       &[data-delay] {
         animation-range: 100px 350px;
       }
-
       & > img {
         height: 25rem;
         object-fit: cover;
         transition: scale 500ms;
       }
-
       &:hover {
         & > img {
           scale: 1.1;
@@ -49,7 +44,6 @@
           transform: translateY(0);
         }
       }
-
       &:nth-child(1) {
         grid-area: A;
       }
