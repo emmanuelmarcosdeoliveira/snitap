@@ -17,7 +17,7 @@ nav {
     transform: rotate(90deg);
   }
   img[alt*="icone"]:hover {
-    transform: rotate(-30deg);
+     transform: rotate(-30deg);   
   }
   & a {
     position: relative;
