@@ -3,7 +3,7 @@ import banner from "../assets/icons/hero/banner.svg";
 import elipse from "../assets/icons/hero/ellipse.svg";
 import patins from "../assets/icons/hero/patins.png";
 import play from "../assets/icons/hero/play.svg";
-import shop from "../assets/icons/hero/shopping-bag.svg";
+import shopBag from "../assets/icons/hero/shopping-bag.svg";
 import stars from "../assets/icons/hero/stars-1.svg";
 import stars2 from "../assets/icons/hero/stars-2.svg";
 import instagran from "../assets/icons/instagram.svg";
@@ -20,12 +20,12 @@ document.querySelector("#app").innerHTML = `
   <main>
   <nav class="container">
       <a href="#">
-        <img  src="../logo-sintap.svg" alt="Logo Sintap Patins" />
+        <img  src=${logo} alt="Logo Snitap" />
       </a>
       <a href="#">
-        <img
-          src="./src/assets/icons/hero/shopping-bag.svg"
-          alt="Logo Carrinho de compras"
+        <img class="shop"
+          src=${shopBag}
+          alt="icone de compras"
         />
         <span>1</span>
       </a>
@@ -43,7 +43,7 @@ document.querySelector("#app").innerHTML = `
         </h1>
         <div class="buttons">
         <a class="button buy shadow" href="#">
-        <img src=${shop} alt="ícone de shop de compra" />
+        <img src=${shopBag} alt="ícone de shop de compra" />
         COMPRAR AGORA
         </a>
         <a class="button play" href="#">

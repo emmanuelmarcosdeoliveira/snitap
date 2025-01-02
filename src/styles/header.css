@@ -13,10 +13,10 @@ nav {
     height: 2rem;
     transition: transform 500ms;
   }
-  img[src*="logo"]:hover {
+  img[alt*="Logo"]:hover {
     transform: rotate(90deg);
   }
-  img[src*="shop"]:hover {
+  img[alt*="icone"]:hover {
     transform: rotate(-30deg);
   }
   & a {
