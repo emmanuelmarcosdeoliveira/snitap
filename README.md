@@ -154,6 +154,11 @@ bun dev
  <!-- Imagem de Demostração -->
 <h3 align="center"> Video de demostração do Projeto</h3>
 
+https://github.com/user-attachments/assets/0fe9c323-4fbc-4349-8868-f4e08fe9c5a5
+
+
+
+
 </br>
 </br>
 
