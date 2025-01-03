@@ -6,15 +6,11 @@
 <!-- Apresentação do  Projeto -->
 <div align="center">
 
-![Bun Badge](<https://img.shields.io/badge/--path?style=plastic&logo=bun&logoColor=rgb(249%2C%20241%2C%20225)&logoSize=auto&label=Bun%20v.1.1.42&labelColor=rgb(93%2C%2089%2C%20134)&color=rgb(249%2C%20241%2C%20225)>)
-
-</br>
+![Bun Badge](<https://img.shields.io/badge/--path?style=plastic&logo=bun&logoColor=rgb(249%2C%20241%2C%20225)&logoSize=auto&label=Bun%20v.1.1.42&labelColor=rgb(93%2C%2089%2C%20134)&color=rgb(249%2C%20241%2C%20225)>)</br>
 <small>runtime utilizado</small>
 
 <!-- Badges do Projeto -->
 
-![GitHub top language](https://img.shields.io/github/languages/top/emmanuelmarcosdeoliveira/snitap?style=plastic&labelColor=%23000)
-![GitHub language count](https://img.shields.io/github/languages/count/emmanuelmarcosdeoliveira/snitap?style=flat&logo=github&logoColor=%23fff&logoSize=auto&labelColor=%23000)
 ![GitHub repo size](https://img.shields.io/github/repo-size/emmanuelmarcosdeoliveira/snitap?style=plastic&logo=github&logoColor=%23fff&logoSize=auto&labelColor=%23000)
 ![GitHub forks](https://img.shields.io/github/forks/emmanuelmarcosdeoliveira/snitap?style=plastic&labelColor=%23000)
 
